@@ -1,6 +1,5 @@
 package org.example;
 
-
 import java.util.Scanner;
 
 public class Main {
@@ -59,8 +58,10 @@ public class Main {
                         for(String item : caixa.getTransacoes()) {
                             System.out.println(item);
                         }
+                        break;
                     case 5:
-
+                        System.out.println("Encerrando programa....");
+                        return;
                 }
             }
         }
